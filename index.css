@@ -20,10 +20,18 @@ p{
 	line-height: 1.5em; 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
 	font-family: termina, sans-serif;
 	font-style: normal;
 	font-weight: 700;
+
+	color: rgb(255,255,0);
+}
+
+h6 {
+	font-family: termina, sans-serif;
+	font-style: normal;
+	font-weight: 400;
 
 	color: rgb(255,255,0);
 }
@@ -129,6 +137,12 @@ img{
 	z-index: 100;
 	opacity: 0.25;
 }
+.footer .copy{
+	position: fixed;
+	left:150px;
+	bottom:0px;
+	z-index: 100;
+}
 .back2top{
 	position: fixed;
 	right:150px;
@@ -220,22 +234,28 @@ img{
 
 	color: black;
 }
-.workimg.fourteen{
+.workimg.fifteen{
 	grid-column-start:1;
 	grid-column-end: 4 span;
 	grid-row-start:7;
 	grid-row-end: 1 span;
 }
-.workimg.eleven{
+.workimg.fourteen{
 	grid-column-start:5;
 	grid-column-end: 4 span;
 	grid-row-start:7;
 	grid-row-end: 1 span;
 }
-.workimg.twelve{
+.workimg.eleven{
 	grid-column-start:9;
 	grid-column-end: 4 span;
 	grid-row-start:7;
+	grid-row-end: 1 span;
+}
+.workimg.twelve{
+	grid-column-start:1;
+	grid-column-end: 4 span;
+	grid-row-start:8;
 	grid-row-end: 1 span;
 }
 .workimg.thirteen{
@@ -243,13 +263,13 @@ img{
 	border-color: rgb(255,255,0);
 	border-width: 1px;
 	
-	grid-column-start:1;
+	grid-column-start:5;
 	grid-column-end: 4 span;
 	grid-row-start:8;
 	grid-row-end: 1 span;
 }
 .workimg.one{
-	grid-column-start:5;
+	grid-column-start:9;
 	grid-column-end: 4 span;
 	grid-row-start:8;
 	grid-row-end: 1 span;
@@ -259,55 +279,55 @@ img{
 	border-color: rgb(255,255,0);
 	border-width: 1px;
 
-	grid-column-start:9;
+	grid-column-start:1;
 	grid-column-end: 4 span;
-	grid-row-start:8;
+	grid-row-start:9;
 	grid-row-end: 1 span;
 }
 .workimg.three{
-	grid-column-start:1;
+	grid-column-start:5;
 	grid-column-end: 4 span;
 	grid-row-start:9;
 	grid-row-end: 1 span;
 }
 .workimg.four{
-	grid-column-start:5;
+	grid-column-start:9;
 	grid-column-end: 4 span;
 	grid-row-start:9;
 	grid-row-end: 1 span;
 }
 .workimg.five{
-	grid-column-start:9;
+	grid-column-start:1;
 	grid-column-end: 4 span;
-	grid-row-start:9;
+	grid-row-start:10;
 	grid-row-end: 1 span;
 }
 .workimg.six{
-	grid-column-start:1;
+	grid-column-start:5;
 	grid-column-end: 4 span;
 	grid-row-start:10;
 	grid-row-end: 1 span;
 }
 .workimg.seven{
-	grid-column-start:5;
-	grid-column-end: 4 span;
-	grid-row-start:10;
-	grid-row-end: 1 span;
-}
-.workimg.eight{
 	grid-column-start:9;
 	grid-column-end: 4 span;
 	grid-row-start:10;
 	grid-row-end: 1 span;
 }
-.workimg.nine{
+.workimg.eight{
 	grid-column-start:1;
 	grid-column-end: 4 span;
 	grid-row-start:11;
 	grid-row-end: 1 span;
 }
-.workimg.ten{
+.workimg.nine{
 	grid-column-start:5;
+	grid-column-end: 4 span;
+	grid-row-start:11;
+	grid-row-end: 1 span;
+}
+.workimg.ten{
+	grid-column-start:9;
 	grid-column-end: 4 span;
 	grid-row-start:11;
 	grid-row-end: 1 span;
@@ -320,9 +340,9 @@ img{
 	border-color: rgb(255,255,0);
 	border-width: 1px;
 
-	grid-column-start:9;
-	grid-column-end: 4 span;
-	grid-row-start:11;
+	grid-column-start:1;
+	grid-column-end: 12 span;
+	grid-row-start:12;
 	grid-row-end: 1 span;
 
 	padding: 100px;
@@ -332,7 +352,7 @@ img{
 .contact{
 	grid-column-start:5;
 	grid-column-end: 8 span;
-	grid-row-start:13;
+	grid-row-start:14;
 	grid-row-end: 1 span;
 }
 .contact.block{
@@ -340,7 +360,7 @@ img{
 
 	grid-column-start:1;
 	grid-column-end: 4 span;
-	grid-row-start:13;
+	grid-row-start:14;
 	grid-row-end: 1 span;
 }
 /*-------------------------------overlay images-----------------------------------*/
@@ -2406,5 +2426,146 @@ img{
 	grid-column-start:10;
 	grid-column-end: 3 span;
 	grid-row-start:3;
+	grid-row-end: 1 span;
+}
+
+/*-------------------------------bacardi rojo spiced rum / f15-----------------------------------*/
+.f15.body-insideGrid.one{
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+	/*grid-column-gap: 25px;*/
+	grid-gap: 25px;
+
+	/*position inside .body-grid*/
+	grid-column-start:1;
+	grid-column-end: 12 span;
+	grid-row-start:4;
+	grid-row-end: 1 span;
+}
+.f15.body-insideGrid.one .one{
+	grid-column-start:1;
+	grid-column-end: 12 span;
+	grid-row-start:1;
+	grid-row-end: 1 span;
+}
+.f15.body-insideGrid.one .two{
+	grid-column-start:7;
+	grid-column-end:6 span;
+	grid-row-start:1;
+	grid-row-end: 1 span;
+}
+.f15.body-insideGrid.one .block{
+	background-color: rgb(255,255,0);
+
+	grid-column-start:1;
+	grid-column-end: 4 span;
+	grid-row-start:2;
+	grid-row-end: 1 span;
+}
+.f15.body-insideGrid.one .one-desc{
+	grid-column-start:5;
+	grid-column-end: 8 span;
+	grid-row-start:2;
+	grid-row-end: 1 span;
+}
+
+.f15.body-insideGrid.two{
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+	/*grid-column-gap: 25px;*/
+	grid-gap: 25px;
+
+	/*position inside .body-grid*/
+	grid-column-start:1;
+	grid-column-end: 12 span;
+	grid-row-start:6;
+	grid-row-end: 1 span;
+}
+.f15.body-insideGrid.two .one{
+	grid-column-start:1;
+	grid-column-end: 8 span;
+	grid-row-start:1;
+	grid-row-end: 2 span;
+}
+.f15.body-insideGrid.two .one-desc{
+	overflow-y: auto;
+	text-overflow: clip;
+
+	border-style: solid;
+	border-color: rgb(255,255,0);
+	border-width: 1px;
+	
+	margin: 0px;
+	padding: 10px;
+
+	grid-column-start:9;
+	grid-column-end: 4 span;
+	grid-row-start:1;
+	grid-row-end: 1 span;
+}
+.f15.body-insideGrid.two .four{
+	grid-column-start:9;
+	grid-column-end: 4 span;
+	grid-row-start:2;
+	grid-row-end: 1 span;
+}
+.f15.body-insideGrid.two .two{
+	grid-column-start:5;
+	grid-column-end: 8 span;
+	grid-row-start:3;
+	grid-row-end: 2 span;
+}
+.f15.body-insideGrid.two .two-desc{
+	overflow-y: auto;
+	text-overflow: clip;
+
+	border-style: solid;
+	border-color: rgb(255,255,0);
+	border-width: 1px;
+	
+	margin: 0px;
+	padding: 10px;
+
+	grid-column-start:1;
+	grid-column-end: 4 span;
+	grid-row-start:3;
+	grid-row-end: 1 span;
+}
+.f15.body-insideGrid.two .three{
+	grid-column-start:1;
+	grid-column-end: 4 span;
+	grid-row-start:4;
+	grid-row-end: 1 span;
+}
+.f15.body-insideGrid.three{
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+	/*grid-column-gap: 25px;*/
+	grid-gap: 25px;
+
+	/*position inside .body-grid*/
+	grid-column-start:1;
+	grid-column-end: 12 span;
+	grid-row-start:8;
+	grid-row-end: 1 span;
+}
+.f15.body-insideGrid.three .one-desc{
+	grid-column-start:5;
+	grid-column-end:8 span;
+	grid-row-start:1;
+	grid-row-end: 1 span;
+}
+.f15.body-insideGrid.three .block{
+	background-color: rgb(255,255,0);
+
+	grid-column-start:1;
+	grid-column-end: 4 span;
+	grid-row-start:1;
+	grid-row-end: 1 span;
+}
+.f15.body-insideGrid.three .one{
+	grid-column-start:1;
+	grid-column-end: 12 span;
+	grid-row-start:2;
 	grid-row-end: 1 span;
 }
