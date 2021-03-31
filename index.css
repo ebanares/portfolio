@@ -108,7 +108,7 @@ img{
 }
 .head.one{
 	grid-column-start:1;
-	grid-column-end: 3 span;
+	grid-column-end: 9 span;
 }
 .head.two{
 	grid-column-start:10;
